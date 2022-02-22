@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li.homes a{
+    background-color: mediumaquamarine;
+    color: black;
+}
+ul li a{
+    text-decoration: solid;
+    color: teal;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.69s ease-in-out;
+}
+ul li a:hover{
+background-color: mediumaquamarine;
+color: black;
+}
+.lefttop{
+    
+    float: left;
+    width: 150px;
+    height: 100px;
+    top: 10%;
+
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+position: absolute;
+top: 35%;
+left: 60%;
+transform: translate(-80%,-50%);
+background-color: gray transparent;
+}
+.title h1{
+    color: teal ;
+    font-size: 100px;
+    
+}
+.belowtitle{
+    
+    
+    left: 60%;
+    transform: translate(-80%,-50%);
+    background-color: gray transparent;
+}
+.bodys{
+    background-image: linear-gradient(rgb(240, 240, 240) ,rgb(240, 240, 240));
+    background-size: cover;
+    background-position: center;
+
+}
+.hrr{
+    height:2px;
+    border-width:0;
+    color:gray;background-color:gray;
+}
+.socials{
+    text-decoration: solid;
+    color: teal;
+    border: 1px solid transparent;    
+    
+}
+.foot{
+    margin-top: 50%;    
+    border: 1px solid transparent;    
+
+}
